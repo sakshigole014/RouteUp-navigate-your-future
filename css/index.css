@@ -140,7 +140,7 @@
 }
 
 .service-section{
-    margin-top: 150px;
+    margin-top: 170px;
     color: black;
     font-weight: 700;
     display: flex;
@@ -150,6 +150,7 @@
 
 .service-section-heading{
     font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .service-section-sub-heading{
@@ -179,7 +180,7 @@
 
 .card-info{
     width: 100%;
-    padding: 15px;
+    padding: 10px;
 }
 
 .service-section-name{
@@ -191,7 +192,7 @@
 }
 
 .btn-student{
-    height: 50px;
+    height: 45px;
     width: 200px;
     color: white;
     font-size: 15px;
@@ -209,10 +210,80 @@
 }
 
 .service-section-items-2{
-     width: 500px;
+    width: 500px;
     height: 400px;
     background-size: cover;
     background-position: cover;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/career-counselling-working-people.jpg);
+}
+
+.card-section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.card-section-heading{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-section-description{
+    color: navy;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+    margin-top: 10px;
+}
+
+.card-section-card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.work-card-heading{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-section-card-container-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+
+    width: 200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-section-card-container-items:hover{
+    border: 1px solid navy;
+    transition: border 0.6s ease;
+}
+
+.card-section-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-section-img{
+    background-color: #ccddff;
+    padding: 15px;
+    border-radius: 50%;
+    height: 30px;
 }
