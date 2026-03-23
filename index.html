@@ -5,71 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RouteUp</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./index.html">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="./css/navbar.css">
-    <link rel="stylesheet" href="./css/navbar.css">
+<link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
-
-    <!-- Navbar -->
     <nav class="navbar">
-        <div class="logo">RouteUp</div>
-        <ul class="nav-links">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./pages/explore.html">Explore</a></li>
-            <li><a href="./pages/compare.html">Compare</a></li>
-            <li><a href="./pages/quiz.html">Quiz</a></li>
-            <li><a href="./pages/about.html">About/Contact</a></li>
-        </ul>
-    </nav>
+     <div class="logo-container">
+                <img src="./images/logo.png" alt="logo" class="logo">
+                <h1>Route<span class="Up">Up</span></h1>
+            </div>
+
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+    <label for="menu-toggle" class="hamburger">
+        <i class="fa-solid fa-bars"></i>
+    </label>
+    
+    <ul class="nav-links">
+    <li><a href="./index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+    <li><a href="./pages/explore.html"><i class="fa-solid fa-compass"></i> Explore</a></li>
+    <li><a href="./pages/compare.html"><i class="fa-solid fa-code-compare"></i></i></i> Compare</a></li>
+    <li><a href="./pages/quiz.html"><i class="fa-solid fa-circle-question"></i> Quiz</a></li>
+    <li><a href="./pages/about.html"><i class="fa-solid fa-circle-info"></i> About</a></li>
+</ul>
+</nav>
 
     <section class="hero-split">
 
-    <!-- Left Image -->
-    <div class="hero-image">
-        <img src="images/heroimg.png" alt="Woman looking at career options">
+        <!-- Left Image -->
+        <div class="hero-image">
+            <img src="images/heroimg.png" alt="Woman looking at career options">
 
-        <!-- Floating Card -->
-        <div class="career-card">
-            <h3>Explore</h3>
+            <!-- Floating Card -->
+            <div class="career-card">
+                <h3>Explore</h3>
 
-            <div class="career-item">
-                <span>Graphic Designer</span>
-                <div class="stars">★★★★★</div>
-            </div>
+                <div class="career-item">
+                    <span>Graphic Designer</span>
+                    <div class="stars">★★★★★</div>
+                </div>
 
-            <div class="career-item">
-                <span>Software Engineer</span>
-                <div class="stars">★★★★★</div>
-            </div>
+                <div class="career-item">
+                    <span>Software Engineer</span>
+                    <div class="stars">★★★★★</div>
+                </div>
 
-            <div class="career-item">
-                <span>Business Degree</span>
-                <div class="stars">★★★★★</div>
-            </div>
+                <div class="career-item">
+                    <span>Business Degree</span>
+                    <div class="stars">★★★★★</div>
+                </div>
 
-            <div class="career-item">
-                <span>Data Analyst</span>
-                <div class="stars">★★★★★</div>
+                <div class="career-item">
+                    <span>Data Analyst</span>
+                    <div class="stars">★★★★★</div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <!-- Right Content -->
-    <div class="hero-content">
-        <h1>RouteUp – Navigate Your Future</h1>
-        <p>
-            Explore different career options, understand required skills,
-            compare paths, and choose what’s right for you.
-        </p>
+        <!-- Right Content -->
+        <div class="hero-content">
+            <h1>RouteUp – Navigate Your Future</h1>
+            <p>
+                Explore different career options, understand required skills,
+                compare paths, and choose what’s right for you.
+            </p>
 
-        <div class="hero-buttons">
-            <button class="primary-btn">Get Started</button>
-            <button class="secondary-btn">Learn More</button>
+            <div class="hero-buttons">
+                <button class="primary-btn">Get Started</button>
+                <button class="secondary-btn">Learn More</button>
+            </div>
         </div>
-    </div>
 
-</section>
+    </section>
 
     <!-- How It Works -->
     <section class="how-it-works">
@@ -79,7 +87,7 @@
 
             <div class="card">
                 <div class="card-div">
-                    <img src="./images/career-upgrade.svg" alt="career-options-icon" height="50px" class="card-img" />
+                    <img src="./images/career-upgrade.svg" alt="career-options-icon" class="card-img" />
                 </div>
                 <h3>Discover Career Options</h3>
                 <p>Explore a wide range of career paths and find what truly interests you.</p>
@@ -87,7 +95,7 @@
 
             <div class="card">
                 <div class="card-div">
-                    <img src="./images/speech-image.svg" alt="speech-image" height="50px" class="card-img" />
+                    <img src="./images/speech-image.svg" alt="speech-image" class="card-img" />
                 </div>
                 <h3>Understand & Compare</h3>
                 <p>Learn required skills and compare different career paths side by side.</p>
@@ -95,80 +103,96 @@
 
             <div class="card">
                 <div class="card-div">
-                    <img src="./images/choice-image.svg" alt="trofy-img" height="50px" class="card-img" />
+                    <img src="./images/choice-image.svg" alt="trofy-img" class="card-img" />
                 </div>
                 <h3>choose your path wisely</h3>
-                <p >Choose a career path confidently based on your interests and goals</p>
+                <p>Choose a career path confidently based on your interests and goals</p>
             </div>
 
         </div>
 
-       <!-- section -->
+        <!-- section -->
         <div class="section-heading">
-        <span class="section-3">Trusted by students,parents, and proffessional across india.</span>
+            <span class="section-3">Trusted by students,parents, and proffessional across india.</span>
             <div class="cards-1">
                 <div class="card-1">
-                    <span style="color: orangered;">15,000+</span>
+                    <h3>15,000+</h3>
                     <span>Students Guided</span>
                 </div>
 
                 <div class="card-1">
-                     <span style="color: orangered;">7,000</span>
+                    <h3>7,000</h3>
                     <span>proffessionals Counselled</span>
                 </div>
 
                 <div class="card-1">
-                     <span style="color: orangered;">98%</span>
+                    <h3>98%</h3>
                     <span>satisfaction Rate</span>
                 </div>
 
-                <div class="card-1"> 
-                    <span style="color: orangered;">25+</span>
+                <div class="card-1">
+                    <h3>25+</h3>
                     <span>Cities Served with trust</span>
                 </div>
             </div>
-            </div>
+        </div>
 
 
         <!-- footer -->
     </section>
-        <footer class="footer">
+ 
+
+<footer class="footer">
+
     <div class="footer-container">
 
+        <!-- Brand -->
         <div class="footer-brand">
-            <h2>RouteUp</h2>
+            <h2 class="footer-logo">
+                <img src="./images/logo.png" alt="RouteUp Logo">
+                RouteUp
+            </h2>
             <p>Navigate your future with clarity and confidence.</p>
         </div>
 
+        <!-- Quick Links -->
         <div class="footer-links">
             <h4>Quick Links</h4>
-            <a href="#">Home</a>
-            <a href="#">Explore</a>
-            <a href="#">Compare</a>
-            <a href="#">Quiz</a>
+            <a href="./index.html"><i class="fa-solid fa-house"></i> Home</a>
+             <a href="./pages/about.html"><i class="fa-solid fa-circle-info"></i> About</a>
+            <a href="./pages/about.html"><i class="fa-solid fa-envelope"></i> Contact</a>
         </div>
 
+        <!-- Company -->
         <div class="footer-links">
-            <h4>Company</h4>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+            <h4>Career Tools</h4>
+             <a href="./pages/explore.html"><i class="fa-solid fa-compass"></i> Explore</a>
+            <a href="./pages/compare.html"><i class="fa-solid fa-code-compare"></i> Compare</a>
+            <a href="./pages/quiz.html"><i class="fa-solid fa-circle-question"></i> Quiz</a>
+           
         </div>
 
+        <!-- Social -->
         <div class="footer-social">
             <h4>Connect</h4>
             <p>Stay updated with us</p>
             <div class="social-icons">
-                <span>🌐</span>
-                <span>📷</span>
-                <span>💼</span>
+                <a href="./pages/https://www.linkedin.com/in/sanskruti-chikhlonde-042a4b374?utm_source=share_via&utm_content=profile&utm_medium=member_android"> <i class="fa-solid fa-globe"></i></a>
+               <a href="https://www.instagram.com/sanskruti_chikhlonde?igsh=eWk3d3BjcjR4eWlh"> <i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/sanskruti-chikhlonde-042a4b374?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/sanskruti-chikhlonde"><i class="fa-brands fa-github"></i></a>
             </div>
         </div>
 
     </div>
 
+    <!-- Bottom -->
     <div class="footer-bottom">
         <p>© 2026 RouteUp. All rights reserved.</p>
     </div>
+
 </footer>
+
 </body>
+
 </html>
