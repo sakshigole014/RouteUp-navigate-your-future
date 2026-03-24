@@ -27,67 +27,7 @@ body{
     color:#ea580c;
 }
 
-/* ABOUT SECTION */
-.about-section{
-    padding:80px 10%;
-}
-
-.about-container{
-    display:flex;
-    align-items:center;
-    gap:50px;
-}
-
-/* TEXT */
-.about-text{
-    flex:1;
-}
-
-.about-text h2{
-    color:#ea580c;
-    margin-bottom:15px;
-}
-
-.about-points{
-    margin-top:20px;
-}
-
-.about-points span{
-    display:inline-block;
-    background:#ffffff;
-    padding:8px 14px;
-    border-radius:20px;
-    margin:5px;
-    font-size:14px;
-}
-
-/* VISUAL */
-.about-visual{
-    flex:1;
-    display:grid;
-    grid-template-columns:repeat(2,80px);
-    gap:20px;
-    justify-content:center;
-}
-
-.box{
-    background:#ffffff;
-    height:80px;
-    width:80px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    border-radius:15px;
-    font-size:24px;
-    box-shadow:0 5px 15px rgba(0,0,0,0.05);
-    transition:0.3s;
-}
-
-.box:hover{
-    transform:translateY(-5px);
-}
-
-/* ABOUT SECTION */
+/* ABOUT */
 .about-section{
     padding:80px 10%;
 }
@@ -148,7 +88,7 @@ body{
     transform:translateY(-5px);
 }
 
-/* MISSION SECTION */
+/* MISSION*/
 .mission-section{
     padding:80px 10%;
     text-align:center;
@@ -178,7 +118,7 @@ body{
     transform:translateY(-6px);
 }
 
-/* OFFERS (ZIGZAG STYLE) */
+/* OFFERS */
 .offers{
     padding:80px 10%;
 }
@@ -247,7 +187,7 @@ body{
     flex-direction:column;
 }
 
-/* INPUT STYLE (premium) */
+/* INPUT STYLE */
 .form input,
 .form textarea{
     margin-bottom:15px;
@@ -325,7 +265,7 @@ body{
 .input-box input,
 .input-box textarea{
     width:100%;
-    padding:14px 14px 14px 40px;  /* space for icon */
+    padding:14px 14px 14px 40px;
     border-radius:12px;
     border:1px solid #eee;
     background:#fff7ed;
