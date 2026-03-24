@@ -15,6 +15,7 @@ body{
  margin-top: 100px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     
 }
 
@@ -164,12 +165,12 @@ body{
 .next-btn{
     display:block;
     margin:40px auto 0;
-    width:100%;
-    padding:16px;
+    width:50%;
+    padding:10px;
     background:linear-gradient(135deg,#ea580c,#c2410c);
     color:#fff;
     text-align:center;
-    border-radius:12px;
+    border-radius:25px;
     cursor:pointer;
     font-size: 20px;
     transition:0.3s;
@@ -213,14 +214,30 @@ body{
     color:#7c6a5d;
 }
 
-/* RESPONSIVE */
-@media(max-width:900px){
+@media(max-width:760px){
     .main-layout{
         flex-direction:column;
+        margin-top:40px;
+        padding:0; /* 🔥 remove extra spacing */
     }
 
     .left-panel{
-        text-align:center;
-        padding:40px;
+        width:80%;
+        padding:20px;
+        margin:0; /* 🔥 remove margin */
+    }
+    .left-panel p{
+        text-align: center;
+    }.left-panel h1{
+        font-size: 7vh;
+    }
+.left-panel img{
+    margin-top: 90px;
+    width: 100%;
+}
+    .quiz-box{
+        width:85%;
+        padding:20px;
     }
 }
+   

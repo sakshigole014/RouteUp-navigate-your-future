@@ -109,13 +109,14 @@ body{
 
 .card button{
     margin-top: 12px;
-    padding: 8px 18px;
+    padding: 12px 25px;
     border: none;
     background: #ea580c;
     color: white;
     border-radius: 6px;
     cursor: pointer;
     transition: 0.3s;
+    border-radius: 25px;
 }
 
 .card button:hover{
@@ -205,6 +206,7 @@ body{
     text-align: center;
     background: #ffedd5;
     padding: 6px;
+   
     font-size: 12px;
     border-radius: 20px;
     color: #7c2d12;
@@ -251,8 +253,8 @@ body{
     padding: 12px 25px;
     border: none;
     background: #ea580c;
-    color: white;
-    border-radius: 5px;
+       color: white;
+    border-radius: 25px;
     
 }
 
