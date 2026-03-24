@@ -39,7 +39,7 @@ body {
     background: rgba(124, 45, 18, 0.1);
     border-radius: 20px;
 
-    background: rgba(0,0,0,0.10); /* very light */
+    background: rgba(0,0,0,0.10); 
     border-radius: 30px;
 
 }
@@ -134,7 +134,7 @@ body {
     color: white;
 }
 
-/* ============== HOW IT WORKS ============== */
+/* ======== HOW IT WORKS ======== */
 .how-it-works {
     padding: 40px 60px;
     text-align: center;
@@ -335,7 +335,7 @@ body {
 
     
     .career-card {
-        position: absolute;          /* 🔥 remove absolute */
+        position: absolute;
         transform: none;
         top: 180px;
         width: 90%;
